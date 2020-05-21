@@ -1,0 +1,46 @@
+h2 {
+    color: white;
+    font-family: myfont;
+    padding:20px;
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(/resources/Youmurdererbb-pwoK.otf);
+
+}
+
+
+body{
+    background-color: black;
+}
+
+.content {
+    overflow-x: auto;
+    width: auto;
+    white-space: nowrap;
+    padding: 50px;
+}
+
+.scroller {
+    width: 100%;
+}
+
+.story {
+    display: flex;
+    flex-direction: row;
+}
+
+.story > video  {
+    padding: 0px 30px;
+}
+
+
+.howling {
+    background-image: url(/resources/mountain.webp);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding:100px;
+}
